@@ -1,0 +1,182 @@
+/* Contact CSS */
+#contact {
+  padding: 3rem 0;
+
+  .contact_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+
+    @media (max-width: 992px) {
+      justify-content: center;
+    }
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
+
+    .contact_col {
+      width: calc(100% / 2 - 1rem);
+      padding: 1rem;
+      box-sizing: border-box;
+
+      @media (max-width: 992px) {
+        width: 50%;
+      }
+
+      @media (width <= 900px) {
+        width: 100%;
+        text-align: center;
+      }
+
+      @media (width <= 550px) {
+        margin: auto;
+      }
+
+      .mapouter {
+        position: relative;
+        height: 440px;
+        width: 600px;
+
+        .gmap_canvas {
+          height: 100%;
+          width: 100%;
+
+          & iframe {
+            position: relative;
+            z-index: 2;
+          }
+        }
+
+        @media screen and (max-width: 1250px) {
+          height: 400px;
+          width: 450px;
+          overflow: hidden;
+          margin: auto;
+        }
+
+        @media (width <= 970px) {
+          margin: auto;
+          width: 400px;
+        }
+
+        @media (width <= 900px) {
+          margin: auto;
+          width: 650px;
+        }
+
+        @media (width <= 700px) {
+          margin: auto;
+          width: 500px;
+        }
+
+        @media (width <= 550px) {
+          margin: auto;
+          width: 350px;
+        }
+
+        @media (width <= 400px) {
+          margin: auto;
+          padding: 0rem;
+          width: 320px;
+        }
+
+        @media (width <= 365px) {
+          margin: auto;
+          padding: 0rem;
+          width: 300px;
+        }
+      }
+
+      h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        color: black;
+      }
+
+      h4 {
+        color: black;
+        font-weight: 600;
+        line-height: 1.25rem;
+      }
+
+      p {
+        color: black;
+        font-size: 1.1rem;
+      }
+
+      hr {
+        width: 70%;
+        /* border: 1px solid #ffc2b4; */
+        border: 1px solid #f0f0f0;
+
+        @media (width <= 900px) {
+          width: 50%;
+        }
+      }
+
+      .phone_number {
+        display: flex;
+
+        @media screen and (width <= 450px) {
+          flex-direction: column;
+          /* align-items: center; */
+        }
+
+        @media screen and (width <= 992px) {
+          justify-content: center;
+        }
+
+        p {
+          margin-top: 0.5rem;
+          margin-bottom: 0.1rem;
+          padding: 0.1rem;
+        }
+      }
+
+      h6 {
+        font-size: 1.15rem;
+        color: black;
+        line-height: 0.1rem;
+
+        a {
+          color: black;
+          text-decoration: none;
+
+          u {
+            text-decoration: underline;
+            text-decoration-color: var(--secondary-color);
+            text-transform: lowercase;
+          }
+        }
+
+        u {
+          text-decoration: none;
+        }
+      }
+
+      .icon {
+        width: 100%;
+
+        .service_icon {
+          margin: auto;
+          font-size: 2.2857rem;
+          width: 5rem;
+          height: 5rem;
+          line-height: 5rem;
+          text-align: center;
+          border-radius: 50%;
+          color: var(--green-color);
+          background: rgb(10 191 83 / 17%);
+          cursor: pointer;
+
+          &:hover {
+            box-shadow: rgba(104, 235, 159, 1) 0rem 0rem 0.8rem 0rem;
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+  }
+}

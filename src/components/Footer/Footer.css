@@ -1,0 +1,16 @@
+/* Footer CSS */
+.footer{
+    background-color: var(--dark-layer-color);
+    padding: 2rem;
+    text-align: center;
+    border-top: .0714rem solid var(--border-color-light);
+
+    p{
+        color: black;
+        text-align: center;
+
+        span{
+            color: var(--secondary-color);
+        }
+    }
+}
