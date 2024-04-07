@@ -7,7 +7,7 @@ const products = [
   {
     id: 1,
     image: CCFM,
-    title: 'Calcium Filler Masterbatch',
+    title: 'Filler Masterbatch',
     description:
       'Masterbatches are imported by us with utmost focus on the quality of the product. These are available in PE/PP Based. The Grades available with Polymer content ranging from 10% to 30%. Dosage of Calcium masterbatch ranges between 5% to 70% depending on the type of application. Sodium base filler masterbatch used in manufacturing of transparent PE films is also available with us.',
   },

@@ -8,8 +8,8 @@ export default function About() {
         <div className="container">
           <div className="title_heading">
             <h3>
-              With Headoffice in the heart of Kolkata city and production units
-              at Singur and Cuttack, Sriram Enterprises is your one stop solution for all Polymer needs.
+              With head-office in Kolkata City, and production units in Singur
+              and Cuttack, we are your one-stop solution for all polymer needs.
             </h3>
           </div>
 

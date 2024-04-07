@@ -34,8 +34,7 @@ export default function Contact() {
               </h2>
               <h4>Head Office: </h4>
               <p>
-                1 British Indian Street, 2nd floor, Kolkata - 700069, West
-                Bengal, India
+                1 British Indian Street, Kolkata - 700069, West Bengal, India
               </p>
               <hr />
               <div className="phone_number">
@@ -52,7 +51,7 @@ export default function Contact() {
               <h6>
                 <u>Unit 1</u>:{' '}
               </h6>
-              <p>Mahishatikri, Singur - 712407, West Bengal, India</p>
+              <p>Singur - 712407, West Bengal, India</p>
               <h6>
                 <u>Unit 2</u>:{' '}
               </h6>
